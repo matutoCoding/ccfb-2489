@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seismic Studio — 三维地震数据体浏览与解释</title>
+</head>
+<body>
+  <div id="topbar">
+    <span class="brand">⛰ Seismic Studio</span>
+    <nav id="nav">
+      <a href="#/projects" data-route="projects">工区列表</a>
+      <a href="#/viewer" data-route="viewer">数据体浏览</a>
+      <a href="#/horizon" data-route="horizon">层位解释</a>
+      <a href="#/colormap" data-route="colormap">色标编辑</a>
+      <a href="#/export" data-route="export">导出</a>
+    </nav>
+    <span id="project-indicator"></span>
+  </div>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
